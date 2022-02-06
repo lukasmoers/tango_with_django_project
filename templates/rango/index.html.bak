@@ -33,10 +33,10 @@
 		
 		<h2>Most Viewed Pages</h2>
 		<div>
-		{% if mostviewed %}
+		{% if pages %}
 			<h1>{{ page.title }}</h1>
 			<ul>
-			{% for page in mostviewed %}
+			{% for page in pages %}
 				<li>
 					<a href="{{ page.url }}">{{ page.title }}</a>
 				</li>
